@@ -1,0 +1,27 @@
+.brand-logo {
+  margin-left: 1%;
+}
+input.searchbox {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  position: fixed;
+  margin-top: 10px;
+  height: 30px;
+  padding: 5px 5px 5px 15px;
+  width: 60%;
+
+  margin-left: 5%;
+}
+input.searchbox:focus {
+  outline: 0;
+} 
+input.searchbox::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #fff;
+}
+input.searchbox:focus {
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
